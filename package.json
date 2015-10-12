@@ -1,0 +1,29 @@
+{
+  "name": "mockgooseintro",
+  "version": "0.0.1",
+  "description": "This is a tutorial about testing express 4 routes with mocha, chai, supertest and mockgoose.",
+  "main": "api.js",
+  "engines": {
+    "node": "0.12.x"
+  },
+  "scripts": {
+    "test": "mocha -w"
+  },
+  "keywords": [
+    "mockgoose",
+    "mongoose",
+    "mongodb",
+    "express",
+    "mocha",
+    "chai",
+    "supertest"
+  ],
+  "author": "Anthony Jackman <energeticpixels@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^0.8.5",
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "mongoose": "^4.1.10"
+  }
+}
