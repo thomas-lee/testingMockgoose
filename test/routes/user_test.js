@@ -13,10 +13,10 @@ describe('User routes', function() {
     describe('#signup', function() {
         it('should create a user', function(done) {
             request(app)
-                .post('/users/signup')
-                .send({email: 'test@test.com', password: 'password'});
+                .post('/user/signup')
+                .send({email: 'test@test.com', password: 'password'})
                 .expect(200)
-                .end(function(err.res) {
+                .end(function(err, res) {
                     if(err) return done(err);
                     expect(err).to.equal(null);
                     expect(res.body.success).to.equal(true);
